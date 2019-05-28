@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width">
+	<title>Acme Web Design | Contact</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Albert Cole</span> Network Specialist</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li class="current"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</header>
+
+
+	<section id="contact">
+		<div class="container">
+			<div class="contact-head">
+			<h1>Contact Me</h1>
+			<p>Fill out this for or call me at 516-234-1211...Go Bruins, Patriots, Redsox, and Celtics. Fuck the Giants</p>
+			</div>
+			<form id="contact-form" method="post" action="contact-form-handler.php">
+				<div class="top-form">
+					<input type="text" name="name" placeholder="First Name" required>
+					<input type="text" name="lname" placeholder="Last Name" required>
+				</div>
+				<div class="middle-form">
+					<input type="email" name="mail" placeholder="Email" required>
+					<input type="text" name="pnumber" placeholder="(xxx)-xxx-xxxx" required>
+				</div>
+				<div class="bottom-form">
+					<input type="text" name="subject" placeholder="Subject">
+				</div>
+				<div class="message-form">
+					<textarea name="message" placeholder="Your Message Here"></textarea>
+				</div>
+
+				<div class="contact-button">
+					<button type="submit" name="submit">Contact Me</button>
+				</div> 
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>Acme Web Design, Copyright &copy; 2019</p>
+	</footer>
+</body>
+</html>
